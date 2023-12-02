@@ -5,27 +5,12 @@
 body{
     width: 100%;
     height: 100%;
-    background-image: url(image-space/lenin-estrada-OI1ToozsKBw-unsplash.jpg);
+    background-image: url(image-space/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
     background-attachment: fixed;
     animation: change 10s infinite ease-in-out;
-}
-
-@keyframes change{
-    0%{
-        background-image: url(image-space/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
-    }
-    25%{
-        background-image: url(image-space/alexey-savchenko-k4Akpt5-Sfk-unsplash.jpg);
-    }
-    50%{
-        background-image: url(image-space/pexels-cottonbro-studio-8721320.jpg);
-    }
-    100%{
-        background-image: url(image-space/lenin-estrada-OI1ToozsKBw-unsplash.jpg);
-    }
 }
 
 
