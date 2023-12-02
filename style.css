@@ -1,0 +1,149 @@
+.headportion{
+    align-items: center;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(image-space/lenin-estrada-OI1ToozsKBw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: change 10s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%{
+        background-image: url(image-space/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+    }
+    25%{
+        background-image: url(image-space/alexey-savchenko-k4Akpt5-Sfk-unsplash.jpg);
+    }
+    50%{
+        background-image: url(image-space/pexels-cottonbro-studio-8721320.jpg);
+    }
+    100%{
+        background-image: url(image-space/lenin-estrada-OI1ToozsKBw-unsplash.jpg);
+    }
+}
+
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.prajyoti{
+    font-size: 33px;
+    font-weight: 80px;
+    letter-spacing: 3px;
+    color: #0e3742;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #0e3742;
+        box-shadow: none;
+    }
+    18%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: #efff;
+        text-shadow: 0 0 10px #03bcfa 0 0 20px #03bcfa, 0 0 40px #03bcfa, 0 0 80px #03bcfa, 0 0 160px #03bcfa;
+    }
+}
+
+.logodiv{
+    background: rgba( 255, 255, 255, 0.55 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+}
+
+.collagename{
+    background: rgba( 255, 255, 255, 0.55 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+}
+
+.headportion{
+    background: rgba( 255, 255, 255, 0.55 );
+backdrop-filter: blur( 3px );
+-webkit-backdrop-filter: blur( 3px );
+}
+
+.techlogo{
+    width: 300px;
+    height: 300px;
+}
+
+.getit{
+    color: #fff;
+    font-family: "ocr-a-std", monospace;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow:
+        0 0 0.5em #fff,
+        0 0 1rem #fff,
+        0 0 1.5rem #fff,
+        0 0 2.5rem #d400ff,
+        0 0 4rem #d400ff,
+        0 0 5.5rem #d400ff,
+        0 0 6rem #d400ff,
+        0 0 9.5rem #d400ff;
+}
+
+.date{
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: "ocr-a-std", monospace;
+    font-size: 20px;
+}
+
+.venue{
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: "ocr-a-std", monospace;
+    font-size: 20px;
+}
+
+.card{
+    background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h5{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-shadow:
+        0 0 0.5em #fff,
+        0 0 1rem #fff,
+        0 0 1.5rem #fff,
+        0 0 2.5rem #d400ff,
+        0 0 4rem #d400ff,
+        0 0 5.5rem #d400ff,
+        0 0 6rem #d400ff,
+        0 0 9.5rem #d400ff;
+}
+
+a{
+    font-size: 15px;
+    font-weight: 3px;
+    text-shadow:
+        0 0 0.5em #fff,
+        0 0 1rem #fff,
+        0 0 1.5rem #fff,
+        0 0 2.5rem #d400ff,
+        0 0 4rem #d400ff,
+        0 0 5.5rem #d400ff,
+        0 0 6rem #d400ff,
+        0 0 9.5rem #d400ff;
+}
